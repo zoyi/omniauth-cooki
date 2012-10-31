@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name = "omniauth-cooki"
   gem.require_paths = ["lib"]
-  gem.version = OmniAuth::TestOAuth2Strategy::VERSION
+  gem.version = OmniAuth::Cooki::VERSION
 
   gem.add_dependency 'omniauth', '~> 1.1'
   gem.add_dependency 'omniauth-oauth2', '~> 1.1'
