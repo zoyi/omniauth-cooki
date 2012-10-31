@@ -6,7 +6,7 @@ module OmniAuth
       option :name, 'cooki'
 
       option :client_options, {
-        :site => 'https://red.coo.ki',
+        :site => 'http://red.coo.ki',
         :authorize_url => '/oauth2/authorize',
         :token_url => '/oauth2/token'
       }
