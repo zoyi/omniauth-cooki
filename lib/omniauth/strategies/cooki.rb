@@ -21,7 +21,10 @@ module OmniAuth
       end
 
       def raw_info
-        @raw_info ||= access_token.get('/me').parsed
+        @raw_info ||= access_token.get('/users/me').parsed
+        Rails.logger.info "TEST !!!!!!!!!!!!!!!!!!"
+        Rails.logger.ingo access_token.inspect
+        Rails.logger.ingo access_token.@raw_info
       end
     end
   end
